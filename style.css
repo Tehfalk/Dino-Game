@@ -22,4 +22,10 @@
     left: 570px;
     top: 110px;
     position: relative;
+    animation: mymove 2s linear infinite;
+}
+
+@keyframes mymove{
+    from {right: 0px;}
+    to{left: 0px;}
 }
